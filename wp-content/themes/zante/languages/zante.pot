@@ -1,0 +1,1852 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Zante\n"
+"POT-Creation-Date: 2022-03-08 14:52+0200\n"
+"PO-Revision-Date: 2022-03-08 14:52+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:5
+msgid "404"
+msgstr ""
+
+#: comments.php:60
+msgid "Trackbacks &amp; Pingbacks"
+msgstr ""
+
+#: core/admin/demo-importer.php:31
+#, php-format
+msgid ""
+"Important notes: </strong> <br><br>\n"
+"      - Use this panel to import content from theme demo example(s). If you "
+"want to try multiple demos, please use %s plugin to reset your WordPress "
+"installation after each import and try another demo afterwards. <br>- Import "
+"process will take time needed to download all attachments from the demo web "
+"site."
+msgstr ""
+
+#: core/admin/demo-importer.php:33
+#, php-format
+msgid ""
+"<br>- If the import stalls and fails to respond after a few minutes you are "
+"suffering from PHP configuration limits that are set too low to complete the "
+"process. More Details about WordPress requirements can be found %s"
+msgstr ""
+
+#: core/admin/demo-importer.php:34
+msgid ""
+" You should contact your hosting provider and ask them to increase those "
+"limits to a minimum as follows:"
+msgstr ""
+
+#: core/admin/demo-importer.php:41
+msgid ""
+"Please, activate your theme in the Zante Dashboard to be able to use the "
+"Demo Importer."
+msgstr ""
+
+#: core/admin/demo-importer.php:42 core/admin/license.php:461
+msgid "Activate Zante License"
+msgstr ""
+
+#: core/admin/demo-importer.php:64
+msgid "Zante Home Version 1"
+msgstr ""
+
+#: core/admin/demo-importer.php:65
+msgid "Zante Home Version 2"
+msgstr ""
+
+#: core/admin/demo-importer.php:66
+msgid "Zante Home Version 3"
+msgstr ""
+
+#: core/admin/demo-importer.php:67
+msgid "Zante Home Version 4"
+msgstr ""
+
+#: core/admin/include/class-tgm-plugin-activation.php:334
+#: core/admin/install-plugins.php:92
+msgid "Install Required Plugins"
+msgstr ""
+
+#: core/admin/include/class-tgm-plugin-activation.php:335
+#: core/admin/install-plugins.php:93
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: core/admin/include/class-tgm-plugin-activation.php:337
+#: core/admin/install-plugins.php:94
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: core/admin/include/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: core/admin/include/class-tgm-plugin-activation.php:340
+#: core/admin/install-plugins.php:95
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+#: core/admin/include/class-tgm-plugin-activation.php:343
+#: core/admin/install-plugins.php:96
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: core/admin/include/class-tgm-plugin-activation.php:349
+#: core/admin/install-plugins.php:97
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: core/admin/include/class-tgm-plugin-activation.php:355
+#: core/admin/install-plugins.php:102
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: core/admin/include/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: core/admin/include/class-tgm-plugin-activation.php:367
+#: core/admin/install-plugins.php:99
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: core/admin/include/class-tgm-plugin-activation.php:373
+#: core/admin/install-plugins.php:100
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/admin/include/class-tgm-plugin-activation.php:378
+#: core/admin/install-plugins.php:104
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/admin/include/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/admin/include/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/admin/include/class-tgm-plugin-activation.php:392
+#: core/admin/install-plugins.php:106
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: core/admin/include/class-tgm-plugin-activation.php:393
+#: core/admin/include/class-tgm-plugin-activation.php:912
+#: core/admin/include/class-tgm-plugin-activation.php:2618
+#: core/admin/include/class-tgm-plugin-activation.php:3669
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: core/admin/include/class-tgm-plugin-activation.php:394
+#: core/admin/include/class-tgm-plugin-activation.php:3244
+#: core/admin/install-plugins.php:107
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: core/admin/include/class-tgm-plugin-activation.php:395
+#: core/admin/include/class-tgm-plugin-activation.php:3037
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name.
+#: core/admin/include/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: core/admin/include/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: core/admin/include/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: core/admin/include/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: core/admin/include/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: core/admin/include/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: core/admin/include/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: core/admin/include/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: core/admin/include/class-tgm-plugin-activation.php:1019
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: core/admin/include/class-tgm-plugin-activation.php:1019
+#: core/admin/include/class-tgm-plugin-activation.php:1022
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: core/admin/include/class-tgm-plugin-activation.php:1022
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: core/admin/include/class-tgm-plugin-activation.php:1206
+#: core/admin/include/class-tgm-plugin-activation.php:3033
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: core/admin/include/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: core/admin/include/class-tgm-plugin-activation.php:2358
+msgid "Required"
+msgstr ""
+
+#: core/admin/include/class-tgm-plugin-activation.php:2361
+msgid "Recommended"
+msgstr ""
+
+#: core/admin/include/class-tgm-plugin-activation.php:2377
+msgid "WordPress Repository"
+msgstr ""
+
+#: core/admin/include/class-tgm-plugin-activation.php:2380
+msgid "External Source"
+msgstr ""
+
+#: core/admin/include/class-tgm-plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr ""
+
+#: core/admin/include/class-tgm-plugin-activation.php:2400
+msgid "Not Installed"
+msgstr ""
+
+#: core/admin/include/class-tgm-plugin-activation.php:2404
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: core/admin/include/class-tgm-plugin-activation.php:2406
+msgid "Active"
+msgstr ""
+
+#: core/admin/include/class-tgm-plugin-activation.php:2412
+msgid "Required Update not Available"
+msgstr ""
+
+#: core/admin/include/class-tgm-plugin-activation.php:2415
+msgid "Requires Update"
+msgstr ""
+
+#: core/admin/include/class-tgm-plugin-activation.php:2418
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: core/admin/include/class-tgm-plugin-activation.php:2427
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: core/admin/include/class-tgm-plugin-activation.php:2473
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: core/admin/include/class-tgm-plugin-activation.php:2477
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: core/admin/include/class-tgm-plugin-activation.php:2481
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: core/admin/include/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/admin/include/class-tgm-plugin-activation.php:2567
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: core/admin/include/class-tgm-plugin-activation.php:2575
+msgid "Installed version:"
+msgstr ""
+
+#: core/admin/include/class-tgm-plugin-activation.php:2583
+msgid "Minimum required version:"
+msgstr ""
+
+#: core/admin/include/class-tgm-plugin-activation.php:2595
+msgid "Available version:"
+msgstr ""
+
+#: core/admin/include/class-tgm-plugin-activation.php:2618
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: core/admin/include/class-tgm-plugin-activation.php:2632
+msgid "Plugin"
+msgstr ""
+
+#: core/admin/include/class-tgm-plugin-activation.php:2633
+msgid "Source"
+msgstr ""
+
+#: core/admin/include/class-tgm-plugin-activation.php:2634
+msgid "Type"
+msgstr ""
+
+#: core/admin/include/class-tgm-plugin-activation.php:2638
+msgid "Version"
+msgstr ""
+
+#: core/admin/include/class-tgm-plugin-activation.php:2639
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: core/admin/include/class-tgm-plugin-activation.php:2688
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: core/admin/include/class-tgm-plugin-activation.php:2693
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: core/admin/include/class-tgm-plugin-activation.php:2699
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: core/admin/include/class-tgm-plugin-activation.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: core/admin/include/class-tgm-plugin-activation.php:2802
+msgid "Install"
+msgstr ""
+
+#: core/admin/include/class-tgm-plugin-activation.php:2808
+msgid "Update"
+msgstr ""
+
+#: core/admin/include/class-tgm-plugin-activation.php:2811
+msgid "Activate"
+msgstr ""
+
+#: core/admin/include/class-tgm-plugin-activation.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: core/admin/include/class-tgm-plugin-activation.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: core/admin/include/class-tgm-plugin-activation.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: core/admin/include/class-tgm-plugin-activation.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: core/admin/include/class-tgm-plugin-activation.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: core/admin/include/class-tgm-plugin-activation.php:3019
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: core/admin/include/class-tgm-plugin-activation.php:3243
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: core/admin/include/class-tgm-plugin-activation.php:3583
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: core/admin/include/class-tgm-plugin-activation.php:3586
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: core/admin/include/class-tgm-plugin-activation.php:3588
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: core/admin/include/class-tgm-plugin-activation.php:3592
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: core/admin/include/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: core/admin/include/class-tgm-plugin-activation.php:3595
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: core/admin/include/class-tgm-plugin-activation.php:3597
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: core/admin/include/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: core/admin/include/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: core/admin/include/class-tgm-plugin-activation.php:3603
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: core/admin/include/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: core/admin/include/class-tgm-plugin-activation.php:3609
+msgid "Show Details"
+msgstr ""
+
+#: core/admin/include/class-tgm-plugin-activation.php:3609
+msgid "Hide Details"
+msgstr ""
+
+#: core/admin/install-plugins.php:21
+msgid "Eagle Core"
+msgstr ""
+
+#: core/admin/install-plugins.php:28
+msgid "Eagle Demo Importer"
+msgstr ""
+
+#: core/admin/install-plugins.php:35
+msgid "Eagle Booking"
+msgstr ""
+
+#: core/admin/install-plugins.php:42
+msgid "Revolution Slider"
+msgstr ""
+
+#: core/admin/install-plugins.php:49
+msgid "WPBakery Page Builder"
+msgstr ""
+
+#: core/admin/install-plugins.php:56
+msgid "Envato Market"
+msgstr ""
+
+#: core/admin/install-plugins.php:63
+msgid "MailChimp for WordPress"
+msgstr ""
+
+#: core/admin/install-plugins.php:68
+msgid "Contact Form 7"
+msgstr ""
+
+#: core/admin/install-plugins.php:98
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/admin/install-plugins.php:101
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/admin/install-plugins.php:103
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/admin/install-plugins.php:105
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: core/admin/install-plugins.php:108
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: core/admin/license.php:60 core/admin/license.php:61
+#: core/admin/license.php:74 core/admin/license.php:75
+#: core/admin/license.php:180
+msgid "Dashboard"
+msgstr ""
+
+#: core/admin/license.php:181
+msgid "Theme Settings"
+msgstr ""
+
+#: core/admin/license.php:200 core/admin/license.php:217
+#: core/admin/license.php:283
+msgid "Theme License"
+msgstr ""
+
+#: core/admin/license.php:205
+msgid ""
+"If you want to use your license on a different domain you have to deactivate "
+"your license first and activate it on your new domain."
+msgstr ""
+
+#: core/admin/license.php:210
+msgid "Theme Version"
+msgstr ""
+
+#: core/admin/license.php:214
+msgid "Changelog"
+msgstr ""
+
+#: core/admin/license.php:220
+msgid "Activated"
+msgstr ""
+
+#: core/admin/license.php:222
+msgid "Not Activated"
+msgstr ""
+
+#: core/admin/license.php:228
+msgid "Deactivate License"
+msgstr ""
+
+#: core/admin/license.php:233 core/admin/license.php:302
+msgid "Purchase Code"
+msgstr ""
+
+#: core/admin/license.php:235
+msgid "Where Is My Purchase Code?"
+msgstr ""
+
+#: core/admin/license.php:238
+msgid "Support Expired on"
+msgstr ""
+
+#: core/admin/license.php:253 core/admin/license.php:484
+msgid "Renew Support"
+msgstr ""
+
+#: core/admin/license.php:256
+msgid "Child Theme"
+msgstr ""
+
+#: core/admin/license.php:262
+msgid "What is a Child Theme?"
+msgstr ""
+
+#: core/admin/license.php:288
+msgid ""
+"Activate the theme using your Envato Purchase Code. One standard license is "
+"valid for one website. Running multiple projects on a single license is a "
+"copyright violation."
+msgstr ""
+
+#: core/admin/license.php:302
+msgid "How to get Purchase Code"
+msgstr ""
+
+#: core/admin/license.php:311
+msgid "Activate License"
+msgstr ""
+
+#: core/admin/license.php:355
+msgid "Server Environment"
+msgstr ""
+
+#: core/admin/license.php:356
+msgid "Requirements"
+msgstr ""
+
+#: core/admin/license.php:362
+msgid "Directive"
+msgstr ""
+
+#: core/admin/license.php:363
+msgid "Priority"
+msgstr ""
+
+#: core/admin/license.php:364
+msgid "Required Value"
+msgstr ""
+
+#: core/admin/license.php:365
+msgid "Current Value"
+msgstr ""
+
+#: core/admin/license.php:370
+msgid "PHP version"
+msgstr ""
+
+#: core/admin/license.php:371 core/admin/license.php:383
+#: core/admin/license.php:389
+msgid "High"
+msgstr ""
+
+#: core/admin/license.php:376
+msgid "PHP time limit"
+msgstr ""
+
+#: core/admin/license.php:377
+msgid "Medium"
+msgstr ""
+
+#: core/admin/license.php:382
+msgid "PHP memory limit"
+msgstr ""
+
+#: core/admin/license.php:388
+msgid "Max upload size"
+msgstr ""
+
+#: core/admin/license.php:409
+msgid "Help"
+msgstr ""
+
+#: core/admin/license.php:410
+msgid "Documentation"
+msgstr ""
+
+#: core/admin/license.php:415
+msgid "Theme Documentation"
+msgstr ""
+
+#: core/admin/license.php:417
+msgid "Theme Installation"
+msgstr ""
+
+#: core/admin/license.php:418
+msgid "Demo Content Import"
+msgstr ""
+
+#: core/admin/license.php:419
+msgid "Theme Translation"
+msgstr ""
+
+#: core/admin/license.php:420
+msgid "Activating Premium Plugins"
+msgstr ""
+
+#: core/admin/license.php:424
+msgid "Eagle Booking Documentation"
+msgstr ""
+
+#: core/admin/license.php:426
+msgid "Add New Room"
+msgstr ""
+
+#: core/admin/license.php:427
+msgid "Add New Booking"
+msgstr ""
+
+#: core/admin/license.php:428
+msgid "Add New Service"
+msgstr ""
+
+#: core/admin/license.php:429
+msgid "Booking System"
+msgstr ""
+
+#: core/admin/license.php:433
+msgid "Useful Links"
+msgstr ""
+
+#: core/admin/license.php:435
+msgid "Get Support"
+msgstr ""
+
+#: core/admin/license.php:436
+msgid "Get Eagle Booking"
+msgstr ""
+
+#: core/admin/license.php:437
+msgid "Recommended Hosting"
+msgstr ""
+
+#: core/admin/license.php:438
+msgid "Recommended Multilingual Plugin"
+msgstr ""
+
+#: core/admin/license.php:460
+msgid ""
+"Zante has not been activated! Make sure to activate your license to be able "
+"to use all core functionalities."
+msgstr ""
+
+#: core/admin/license.php:483
+msgid ""
+"Your support for Zante has expired. Please renew support if you wish to get "
+"help from our team."
+msgstr ""
+
+#. Theme Name of the plugin/theme
+#: core/admin/metaboxes.php:15 core/admin/theme-options.php:28
+msgid "Zante"
+msgstr ""
+
+#: core/admin/metaboxes.php:20
+msgid "Top Bar"
+msgstr ""
+
+#: core/admin/metaboxes.php:31 core/admin/theme-options.php:333
+msgid "Transparent Top Bar"
+msgstr ""
+
+#: core/admin/metaboxes.php:42 core/admin/theme-options.php:173
+msgid "Sticky Header"
+msgstr ""
+
+#: core/admin/metaboxes.php:53
+msgid "Transparent Header"
+msgstr ""
+
+#: core/admin/metaboxes.php:64
+msgid "Semi Transparent Header"
+msgstr ""
+
+#: core/admin/metaboxes.php:75
+msgid "Page Title"
+msgstr ""
+
+#: core/admin/metaboxes.php:86
+msgid "Page Title Background Image"
+msgstr ""
+
+#: core/admin/metaboxes.php:95
+msgid "Padding Top / Bottom"
+msgstr ""
+
+#: core/admin/metaboxes.php:106 core/admin/theme-options.php:931
+#: core/admin/theme-options.php:1051
+msgid "Sidebar"
+msgstr ""
+
+#: core/admin/metaboxes.php:111 core/admin/theme-options.php:934
+#: core/admin/theme-options.php:1054
+msgid "Left"
+msgstr ""
+
+#: core/admin/metaboxes.php:112 core/admin/theme-options.php:935
+#: core/admin/theme-options.php:1055
+msgid "None"
+msgstr ""
+
+#: core/admin/metaboxes.php:113 core/admin/theme-options.php:936
+#: core/admin/theme-options.php:1056
+msgid "Right"
+msgstr ""
+
+#: core/admin/theme-options.php:29
+msgid "Zante Options"
+msgstr ""
+
+#: core/admin/theme-options.php:150
+msgid "Header"
+msgstr ""
+
+#: core/admin/theme-options.php:157
+msgid "Logo"
+msgstr ""
+
+#: core/admin/theme-options.php:165
+msgid "Light Logo (Optional)"
+msgstr ""
+
+#: core/admin/theme-options.php:166
+msgid "Logo for the transparent header."
+msgstr ""
+
+#: core/admin/theme-options.php:174 core/admin/theme-options.php:182
+msgid "This option can be overridden on each page's layout option."
+msgstr ""
+
+#: core/admin/theme-options.php:181
+msgid "Enable Transparent Header"
+msgstr ""
+
+#: core/admin/theme-options.php:190
+msgid "Logo Height"
+msgstr ""
+
+#: core/admin/theme-options.php:191 core/admin/theme-options.php:227
+msgid "Note: Logo Height value is in px."
+msgstr ""
+
+#: core/admin/theme-options.php:199
+msgid "Logo Top/Bottom Padding"
+msgstr ""
+
+#: core/admin/theme-options.php:200 core/admin/theme-options.php:209
+#: core/admin/theme-options.php:218 core/admin/theme-options.php:236
+#: core/admin/theme-options.php:245
+msgid "Note: Padding value is in px. (min. 0px)"
+msgstr ""
+
+#: core/admin/theme-options.php:208
+msgid "Header Top/Bottom Padding"
+msgstr ""
+
+#: core/admin/theme-options.php:217
+msgid "Header Button Top/Bottom Padding"
+msgstr ""
+
+#: core/admin/theme-options.php:226
+msgid "Mobile Logo Height"
+msgstr ""
+
+#: core/admin/theme-options.php:235
+msgid "Mobile Logo Top/Bottom Padding"
+msgstr ""
+
+#: core/admin/theme-options.php:244
+msgid "Mobile Menu Icon Top/Bottom Padding"
+msgstr ""
+
+#: core/admin/theme-options.php:252
+msgid "Background Color"
+msgstr ""
+
+#: core/admin/theme-options.php:260
+msgid "Bottom Border Color"
+msgstr ""
+
+#: core/admin/theme-options.php:268
+msgid "Main Menu Color"
+msgstr ""
+
+#: core/admin/theme-options.php:279
+msgid "Main Menu Color on Scroll"
+msgstr ""
+
+#: core/admin/theme-options.php:290
+msgid "Sub Menu Background Color"
+msgstr ""
+
+#: core/admin/theme-options.php:298
+msgid "Sub Menu Background Hover Color"
+msgstr ""
+
+#: core/admin/theme-options.php:306
+msgid "Sub Menu Border Color"
+msgstr ""
+
+#: core/admin/theme-options.php:314
+msgid "Sub Menu Color"
+msgstr ""
+
+#: core/admin/theme-options.php:326
+msgid "Enable Top Bar"
+msgstr ""
+
+#: core/admin/theme-options.php:327 core/admin/theme-options.php:334
+msgid "This option can be overridden on each page's layout option"
+msgstr ""
+
+#: core/admin/theme-options.php:342
+msgid "Top Bar Background Color"
+msgstr ""
+
+#: core/admin/theme-options.php:351
+msgid "Top Bar Border Color"
+msgstr ""
+
+#: core/admin/theme-options.php:360
+msgid "Top Bar Color"
+msgstr ""
+
+#: core/admin/theme-options.php:372 core/admin/theme-options.php:407
+msgid "Welcome Message"
+msgstr ""
+
+#: core/admin/theme-options.php:373
+msgid "Please enter your welcome message"
+msgstr ""
+
+#: core/admin/theme-options.php:380 core/admin/theme-options.php:408
+msgid "Phone"
+msgstr ""
+
+#: core/admin/theme-options.php:381
+msgid "Please enter your phone number"
+msgstr ""
+
+#: core/admin/theme-options.php:387
+msgid "Phone Link"
+msgstr ""
+
+#: core/admin/theme-options.php:388
+msgid "Please enter your phone number link"
+msgstr ""
+
+#: core/admin/theme-options.php:395 core/admin/theme-options.php:409
+#: core/translate.php:32
+msgid "Email"
+msgstr ""
+
+#: core/admin/theme-options.php:396
+msgid "Please enter your Email"
+msgstr ""
+
+#: core/admin/theme-options.php:404
+msgid "Hide on Mobile"
+msgstr ""
+
+#: core/admin/theme-options.php:405
+msgid "Hide or show top bar elements when viewing on a mobile device."
+msgstr ""
+
+#: core/admin/theme-options.php:432
+msgid "Typography"
+msgstr ""
+
+#: core/admin/theme-options.php:433
+msgid "Manage fonts and typography settings"
+msgstr ""
+
+#: core/admin/theme-options.php:439
+msgid "Main text font"
+msgstr ""
+
+#: core/admin/theme-options.php:447
+msgid "This is your main font, used for standard text"
+msgstr ""
+
+#: core/admin/theme-options.php:465
+msgid "Headings font"
+msgstr ""
+
+#: core/admin/theme-options.php:474
+msgid "This is a font used for titles and headings"
+msgstr ""
+
+#: core/admin/theme-options.php:493
+msgid "Navigation font"
+msgstr ""
+
+#: core/admin/theme-options.php:501
+msgid "This is a font used for main website navigation"
+msgstr ""
+
+#: core/admin/theme-options.php:519
+msgid "Main text font size"
+msgstr ""
+
+#: core/admin/theme-options.php:520
+msgid "This is your default text font size"
+msgstr ""
+
+#: core/admin/theme-options.php:531
+msgid "Navigation font size"
+msgstr ""
+
+#: core/admin/theme-options.php:532
+msgid "Applies to main website navigation"
+msgstr ""
+
+#: core/admin/theme-options.php:543
+msgid "H1 font size"
+msgstr ""
+
+#: core/admin/theme-options.php:544
+msgid "Applies to H1 elements"
+msgstr ""
+
+#: core/admin/theme-options.php:554
+msgid "H2 font size"
+msgstr ""
+
+#: core/admin/theme-options.php:555
+msgid "Applies to H2 elements"
+msgstr ""
+
+#: core/admin/theme-options.php:565
+msgid "H3 font size"
+msgstr ""
+
+#: core/admin/theme-options.php:566
+msgid "Applies to H3 elements"
+msgstr ""
+
+#: core/admin/theme-options.php:576
+msgid "H4 font size"
+msgstr ""
+
+#: core/admin/theme-options.php:577
+msgid "Applies to H4 elements"
+msgstr ""
+
+#: core/admin/theme-options.php:587
+msgid "H5 font size"
+msgstr ""
+
+#: core/admin/theme-options.php:588
+msgid "Applies to H5 elements"
+msgstr ""
+
+#: core/admin/theme-options.php:598
+msgid "H6 font size"
+msgstr ""
+
+#: core/admin/theme-options.php:599
+msgid "Applies to H6 elements"
+msgstr ""
+
+#: core/admin/theme-options.php:617
+msgid "Color Scheme"
+msgstr ""
+
+#: core/admin/theme-options.php:623
+msgid "Primary Color"
+msgstr ""
+
+#: core/admin/theme-options.php:624
+msgid "Main Color Scheme"
+msgstr ""
+
+#: core/admin/theme-options.php:635
+msgid "Body Background Color"
+msgstr ""
+
+#: core/admin/theme-options.php:643
+msgid "Body Text Color"
+msgstr ""
+
+#: core/admin/theme-options.php:651
+msgid "Heading Color"
+msgstr ""
+
+#: core/admin/theme-options.php:666
+msgid "Settings"
+msgstr ""
+
+#: core/admin/theme-options.php:667
+msgid "These are some additional miscellaneous theme settings"
+msgstr ""
+
+#: core/admin/theme-options.php:673
+msgid "Layout"
+msgstr ""
+
+#: core/admin/theme-options.php:674
+msgid "Choose your site layout"
+msgstr ""
+
+#: core/admin/theme-options.php:686 core/admin/theme-options.php:1017
+msgid "Background Image"
+msgstr ""
+
+#: core/admin/theme-options.php:687 core/admin/theme-options.php:1018
+msgid "Upload your background image"
+msgstr ""
+
+#: core/admin/theme-options.php:695
+msgid "Preloader"
+msgstr ""
+
+#: core/admin/theme-options.php:696
+msgid "Enable Preloader"
+msgstr ""
+
+#: core/admin/theme-options.php:703
+msgid "Preloader only on Home Page"
+msgstr ""
+
+#: core/admin/theme-options.php:704
+msgid "Enable Preloader on Home Page"
+msgstr ""
+
+#: core/admin/theme-options.php:712
+msgid "Preloader Style"
+msgstr ""
+
+#: core/admin/theme-options.php:714
+msgid "Style 1"
+msgstr ""
+
+#: core/admin/theme-options.php:715
+msgid "Style 2"
+msgstr ""
+
+#: core/admin/theme-options.php:716
+msgid "Style 3"
+msgstr ""
+
+#: core/admin/theme-options.php:725
+msgid "Preloader Color"
+msgstr ""
+
+#: core/admin/theme-options.php:734
+msgid "Gradient Overlay"
+msgstr ""
+
+#: core/admin/theme-options.php:735
+msgid "Show gradient overlay"
+msgstr ""
+
+#: core/admin/theme-options.php:742
+msgid "Gradient Overlay Color"
+msgstr ""
+
+#: core/admin/theme-options.php:743
+msgid "Gradient Color"
+msgstr ""
+
+#: core/admin/theme-options.php:754
+msgid "Back to Top Button"
+msgstr ""
+
+#: core/admin/theme-options.php:755
+msgid "Enable the back to top button on your pages"
+msgstr ""
+
+#: core/admin/theme-options.php:762
+msgid "Back to Top Button on Mobile"
+msgstr ""
+
+#: core/admin/theme-options.php:763
+msgid "Enable the back to top button when viewing on a mobile device."
+msgstr ""
+
+#: core/admin/theme-options.php:770
+msgid "Back to Top Button Side"
+msgstr ""
+
+#: core/admin/theme-options.php:771
+msgid "Choose the side to display the back to top button"
+msgstr ""
+
+#: core/admin/theme-options.php:792
+msgid "Footer"
+msgstr ""
+
+#: core/admin/theme-options.php:793
+msgid "Manage default settings for your Footer"
+msgstr ""
+
+#: core/admin/theme-options.php:799
+msgid "Footer Columns"
+msgstr ""
+
+#: core/admin/theme-options.php:800
+msgid "Choose number of columns to display in footer area"
+msgstr ""
+
+#: core/admin/theme-options.php:801
+#, php-format
+msgid ""
+"Each column represents one Footer Sidebar in <a href=\"%s\" target=\"_blank"
+"\">Apperance -> Widgets</a> settings."
+msgstr ""
+
+#: core/admin/theme-options.php:803
+msgid "1 Column"
+msgstr ""
+
+#: core/admin/theme-options.php:804
+msgid "2 Columns"
+msgstr ""
+
+#: core/admin/theme-options.php:805
+msgid "3 Columns"
+msgstr ""
+
+#: core/admin/theme-options.php:806
+msgid "4 Columns"
+msgstr ""
+
+#: core/admin/theme-options.php:815
+msgid "Footer Background Color"
+msgstr ""
+
+#: core/admin/theme-options.php:823
+msgid "Footer Border Color"
+msgstr ""
+
+#: core/admin/theme-options.php:832
+msgid "Footer Primary Color"
+msgstr ""
+
+#: core/admin/theme-options.php:840
+msgid "Footer Links Color"
+msgstr ""
+
+#: core/admin/theme-options.php:851
+msgid "Copyright Text"
+msgstr ""
+
+#: core/admin/theme-options.php:852
+msgid ""
+"Please enter the copyright text. e.g. &copy; 2021 Hotel Zante. All Rights "
+"Reserved"
+msgstr ""
+
+#: core/admin/theme-options.php:858
+msgid "Copyright Background Color"
+msgstr ""
+
+#: core/admin/theme-options.php:866
+msgid " Copyright Text Color"
+msgstr ""
+
+#: core/admin/theme-options.php:867
+msgid "Choose a color for your copyright text"
+msgstr ""
+
+#: core/admin/theme-options.php:875
+msgid "Facebook Link"
+msgstr ""
+
+#: core/admin/theme-options.php:876
+msgid "Please enter your Facebook URL"
+msgstr ""
+
+#: core/admin/theme-options.php:882
+msgid "Twitter Link"
+msgstr ""
+
+#: core/admin/theme-options.php:883
+msgid "Please enter your Twitter URL"
+msgstr ""
+
+#: core/admin/theme-options.php:889
+msgid "Youtube Link"
+msgstr ""
+
+#: core/admin/theme-options.php:890
+msgid "Please enter your Youtube URL"
+msgstr ""
+
+#: core/admin/theme-options.php:896
+msgid "Instagram Link"
+msgstr ""
+
+#: core/admin/theme-options.php:897
+msgid "Please enter your Instagram URL"
+msgstr ""
+
+#: core/admin/theme-options.php:903
+msgid "Pinterest Link"
+msgstr ""
+
+#: core/admin/theme-options.php:904
+msgid "Please enter your Pinterest URL"
+msgstr ""
+
+#: core/admin/theme-options.php:910
+msgid "Linkedin Link"
+msgstr ""
+
+#: core/admin/theme-options.php:911
+msgid "Please enter your Linkedin URL"
+msgstr ""
+
+#: core/admin/theme-options.php:924 core/helpers.php:932
+msgid "Blog"
+msgstr ""
+
+#: core/admin/theme-options.php:925
+msgid "Manage your Blog"
+msgstr ""
+
+#: core/admin/theme-options.php:932
+msgid "Select sidebar side for blog pages (index, search, category, tags)"
+msgstr ""
+
+#: core/admin/theme-options.php:945
+msgid "Excerpt limit"
+msgstr ""
+
+#: core/admin/theme-options.php:946
+msgid "Specify your excerpt limit"
+msgstr ""
+
+#: core/admin/theme-options.php:947
+msgid "Note: Value represents number of characters"
+msgstr ""
+
+#: core/admin/theme-options.php:955
+msgid "Archive Page Header"
+msgstr ""
+
+#: core/admin/theme-options.php:956
+msgid ""
+"Enable the page header for archive pages (index, single, search, category, "
+"tags)"
+msgstr ""
+
+#: core/admin/theme-options.php:963 core/translate.php:15
+msgid "Tags"
+msgstr ""
+
+#: core/admin/theme-options.php:964
+msgid "Check if you want to display tags"
+msgstr ""
+
+#: core/admin/theme-options.php:971
+msgid "Share Buttons"
+msgstr ""
+
+#: core/admin/theme-options.php:972
+msgid "Check if you want to display share buttons"
+msgstr ""
+
+#: core/admin/theme-options.php:979
+msgid "About Author"
+msgstr ""
+
+#: core/admin/theme-options.php:980
+msgid "Check if you want to display the about author area"
+msgstr ""
+
+#: core/admin/theme-options.php:996
+msgid "Page"
+msgstr ""
+
+#: core/admin/theme-options.php:997
+msgid "Manage your Page"
+msgstr ""
+
+#: core/admin/theme-options.php:1004
+msgid "Page Header"
+msgstr ""
+
+#: core/admin/theme-options.php:1005
+msgid "Choose Page Header Style"
+msgstr ""
+
+#: core/admin/theme-options.php:1026
+msgid "Page Header Background Color"
+msgstr ""
+
+#: core/admin/theme-options.php:1035
+msgid "Page Header Text Color"
+msgstr ""
+
+#: core/admin/theme-options.php:1043
+msgid "Display Breadcrumb"
+msgstr ""
+
+#: core/admin/theme-options.php:1044
+msgid "Check if you want to display breadcrumb area on pages"
+msgstr ""
+
+#: core/admin/theme-options.php:1052
+msgid "Select sidebar side for pages"
+msgstr ""
+
+#: core/admin/theme-options.php:1071
+msgid "Google Map"
+msgstr ""
+
+#: core/admin/theme-options.php:1077
+msgid "API Key"
+msgstr ""
+
+#: core/admin/theme-options.php:1078
+#, php-format
+msgid "<a href=\"%s\" target=\"_blank\">Getting Google Maps API Key</a>."
+msgstr ""
+
+#: core/admin/theme-options.php:1091
+msgid "Additional Code"
+msgstr ""
+
+#: core/admin/theme-options.php:1092
+msgid "These options are for advanced users only, so use it with caution."
+msgstr ""
+
+#: core/admin/theme-options.php:1098
+msgid "Additional CSS"
+msgstr ""
+
+#: core/admin/theme-options.php:1099
+msgid "Use this field to add CSS code and modify the default theme styling"
+msgstr ""
+
+#: core/admin/theme-options.php:1108
+msgid "Additional JavaScript"
+msgstr ""
+
+#: core/admin/theme-options.php:1109
+msgid "Use this field to add JavaScript code"
+msgstr ""
+
+#: core/admin/theme-options.php:1110
+msgid ""
+"Note: Please use clean execution JavaScript code without \"script\" tags"
+msgstr ""
+
+#: core/admin/theme-options.php:1126
+msgid "Translation"
+msgstr ""
+
+#: core/admin/theme-options.php:1127
+#, php-format
+msgid ""
+"We suggest translating the Zante theme by using <strong><a href='%s' "
+"target='_blank'> WPML </a></strong>"
+msgstr ""
+
+#: core/admin/theme-options.php:1134
+msgid "Display Language Switcher in the top bar for"
+msgstr ""
+
+#: core/admin/theme-options.php:1135 core/admin/theme-options.php:1148
+msgid ""
+"Make sure that you have installed and you have activated the specific plugin."
+msgstr ""
+
+#: core/admin/theme-options.php:1137 core/admin/theme-options.php:1150
+msgid "WPML"
+msgstr ""
+
+#: core/admin/theme-options.php:1138 core/admin/theme-options.php:1151
+msgid "Polylang"
+msgstr ""
+
+#: core/admin/theme-options.php:1147
+msgid "Display Language Switcher in the footer for"
+msgstr ""
+
+#: core/admin/theme-options.php:1167
+msgid "Performance"
+msgstr ""
+
+#: core/admin/theme-options.php:1168
+msgid ""
+"Use these options to put your theme to a high speed as well as save your "
+"server resources!"
+msgstr ""
+
+#: core/admin/theme-options.php:1175
+msgid "Disable additional image sizes"
+msgstr ""
+
+#: core/admin/theme-options.php:1176
+msgid ""
+"By default, theme generates additional image size for each of the layouts it "
+"offers. You can use this option to avoid creating additional sizes if you "
+"are not using particular layout in order to save your server space."
+msgstr ""
+
+#: core/admin/theme-options.php:1178 core/helpers.php:140
+msgid "480 x 480"
+msgstr ""
+
+#: core/admin/theme-options.php:1179 core/helpers.php:141
+msgid "400 x 800"
+msgstr ""
+
+#: core/admin/theme-options.php:1180 core/helpers.php:142
+msgid "720 x 520"
+msgstr ""
+
+#: core/admin/theme-options.php:1181 core/helpers.php:143
+msgid "1170 x 650"
+msgstr ""
+
+#: core/admin/theme-options.php:1182 core/helpers.php:144
+msgid "1920 x 800"
+msgstr ""
+
+#: core/admin/theme-options.php:1199
+msgid "Important note:"
+msgstr ""
+
+#: core/admin/theme-options.php:1200
+#, php-format
+msgid ""
+"Your front page is currently set to display <strong>\"latest posts\"</"
+"strong>. In order to use these options, you need to set your front page "
+"option as <strong>\"static page\"</strong> inside <a href=\"%s\" target="
+"\"_blank\">Settings => Reading</a>."
+msgstr ""
+
+#: core/helpers.php:559
+msgid "Add a menu"
+msgstr ""
+
+#: core/helpers.php:702
+msgid " <i class=\"fa fa-pencil\" aria-hidden=\"true\"></i>"
+msgstr ""
+
+#: core/helpers.php:710
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: core/helpers.php:760 core/translate.php:13
+msgid "Home"
+msgstr ""
+
+#: core/helpers.php:937
+msgid "Search results for:"
+msgstr ""
+
+#: core/helpers.php:942
+msgid "Error 404"
+msgstr ""
+
+#: core/menus.php:13
+msgid "Main Menu"
+msgstr ""
+
+#: core/sidebars.php:19
+msgid "Default Sidebar"
+msgstr ""
+
+#: core/sidebars.php:20
+msgid "This is default sidebar"
+msgstr ""
+
+#: core/sidebars.php:35
+msgid "Footer # 1"
+msgstr ""
+
+#: core/sidebars.php:36
+msgid "This is footer left column"
+msgstr ""
+
+#: core/sidebars.php:52
+msgid "Footer # 2"
+msgstr ""
+
+#: core/sidebars.php:53
+msgid "This footer center column"
+msgstr ""
+
+#: core/sidebars.php:68
+msgid "Footer # 3"
+msgstr ""
+
+#: core/sidebars.php:70 core/sidebars.php:86
+msgid "This footer right column"
+msgstr ""
+
+#: core/sidebars.php:85
+msgid "Footer # 4"
+msgstr ""
+
+#: core/translate.php:11
+msgid "Menu"
+msgstr ""
+
+#: core/translate.php:12
+msgid "Read More"
+msgstr ""
+
+#: core/translate.php:14
+msgid "Share"
+msgstr ""
+
+#: core/translate.php:16
+msgid "Share this post on Facebook"
+msgstr ""
+
+#: core/translate.php:17
+msgid "Share this post on Twitter"
+msgstr ""
+
+#: core/translate.php:18
+msgid "Share this post on Pinterest"
+msgstr ""
+
+#: core/translate.php:19
+msgid "Leave your reply"
+msgstr ""
+
+#: core/translate.php:20
+msgid "Login"
+msgstr ""
+
+#: core/translate.php:21
+msgid "Comment"
+msgstr ""
+
+#: core/translate.php:22
+msgid "Comments"
+msgstr ""
+
+#: core/translate.php:23
+msgid "Comments are closed"
+msgstr ""
+
+#: core/translate.php:24
+msgid "You must be logged in to post a comment."
+msgstr ""
+
+#: core/translate.php:25
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: core/translate.php:26
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: core/translate.php:27
+msgid "Newer Comments &raquo;"
+msgstr ""
+
+#: core/translate.php:28
+msgid "&laquo; Older Comments"
+msgstr ""
+
+#: core/translate.php:29
+msgid "Submit Your Comment"
+msgstr ""
+
+#: core/translate.php:30
+msgid "Reply"
+msgstr ""
+
+#: core/translate.php:31
+msgid "Leave your comment"
+msgstr ""
+
+#: core/translate.php:33
+msgid "Name"
+msgstr ""
+
+#: core/translate.php:34
+msgid "Website"
+msgstr ""
+
+#: core/translate.php:35
+msgid "Write Your Comment"
+msgstr ""
+
+#: core/translate.php:36
+msgid "Log Out"
+msgstr ""
+
+#: core/translate.php:37
+msgid "Search Results For"
+msgstr ""
+
+#: core/translate.php:38
+msgid "No results found. Please try again with a different keyword."
+msgstr ""
+
+#: core/translate.php:39
+msgid "Search"
+msgstr ""
+
+#: core/translate.php:40
+msgid "Previous"
+msgstr ""
+
+#: core/translate.php:41
+msgid "Next"
+msgstr ""
+
+#: core/translate.php:42
+msgid "Back to Home Page"
+msgstr ""
+
+#: core/translate.php:43
+msgid "OOPS!! PAGE NOT FOUND"
+msgstr ""
+
+#: footer.php:35
+msgid "Facebook"
+msgstr ""
+
+#: footer.php:38
+msgid "Twitter"
+msgstr ""
+
+#: footer.php:41
+msgid "YouTube"
+msgstr ""
+
+#: footer.php:44
+msgid "Pinterest"
+msgstr ""
+
+#: footer.php:47
+msgid "Linkedin"
+msgstr ""
+
+#: footer.php:50
+msgid "Instagram"
+msgstr ""
+
+#: footer.php:63 footer.php:82
+msgid "Languages"
+msgstr ""
+
+#: templates/header/main-menu.php:15
+msgid "Click here to add items to main navigation"
+msgstr ""
+
+#: templates/header/main-menu.php:30
+msgid "Click here to add main navigation"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://eagle-themes.com/themes/zante"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Zante is a WordPress Theme crafted for your hotel & resort website."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Eagle-Themes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://eagle-themes.com"
+msgstr ""

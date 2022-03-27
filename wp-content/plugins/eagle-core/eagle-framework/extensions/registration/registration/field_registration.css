@@ -1,0 +1,30 @@
+/* Theme Activation */
+
+.eth-activation-notice {
+    padding: 30px;
+    max-width: 600px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    background: #f57f17;
+    color: #fff;
+}
+
+.eth-activation-notice a {
+    color: #202020;
+}
+
+.eth-theme-purchase-code {
+    height: 45px;
+    width: 500px;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.eth-theme-buttons {
+    display: inline-flex;
+    margin-left: 15px;
+}
+
+.eth-theme-buttons button {
+    height: 45px;
+}

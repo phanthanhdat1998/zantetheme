@@ -1,0 +1,44 @@
+<wpml-config>
+
+    <custom-types>
+        <custom-type translate="1">eagle_rooms</custom-type>
+        <custom-type translate="1">eagle_reviews</custom-type>
+        <custom-type translate="1">eagle_places</custom-type>
+        <custom-type translate="1">eagle_services</custom-type>
+    </custom-types>
+
+    <admin-texts>
+        <key name="eagle_booking_settings">
+            <key name="eagle_booking_before_price" />
+            <key name="eagle_booking_currency" />
+            <key name="eagle_booking_paypal_mssg" />
+            <key name="eagle_booking_stripe_mssg" />
+            <key name="eb_payu_checkout_mssg" />
+            <key name="eagle_booking_2checkout_mssg" />
+            <key name="eagle_booking_bank_mssg" />
+            <key name="eagle_booking_request_mssg" />
+            <key name="eagle_booking_arrive_mssg" />
+            <key name="eagle_booking_rooms_slug" />
+            <key name="eagle_booking_places_slug" />
+            <key name="booking_type_custom_action" />
+            <key name="booking_page_mssg" />
+            <key name="email_customer_text" />
+            <key name="paystack_message" />
+            <key name="razorpay_title" />
+            <key name="razorpay_message" />
+            <key name="arrival_slots" />
+            <key name="eb_price_range_min" />
+            <key name="eb_price_range_max" />
+            <key name="eb_price_range_max" />
+        </key>
+        <key name="eb_taxes"/>
+        <key name="eb_fees"/>
+    </admin-texts>
+
+    <custom-fields>
+        <custom-field action="ignore">eagle_booking_mtb_room_services</custom-field>
+        <custom-field action="ignore">eagle_booking_mtb_room_additional_services</custom-field>
+        <custom-field action="ignore">eagle_booking_mtb_room_reviews</custom-field>
+    </custom-fields>
+
+</wpml-config>

@@ -1,0 +1,14 @@
+<wpml-config>
+  <custom-types>
+    <custom-type translate="1">eagle_gallery</custom-type>
+  </custom-types>
+ <taxonomies>
+    <taxonomy translate="1">eagle_gallery_category</taxonomy>
+  </taxonomies>
+  <admin-texts>
+      <key name="zante_settings">
+          <key name="topbar_welcome_mssg" />
+          <key name="footer_copyright" />
+      </key>
+  </admin-texts>
+</wpml-config>
